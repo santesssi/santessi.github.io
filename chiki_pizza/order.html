@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Підтвердити замовлення</title>
+</head>
+<body class="order-page">
+    <header class="order-header">
+        <a href="confirm.html" class="back-btn">
+            <img src="icon9.png" alt="Назад"> 
+        </a>
+        <h1 class="header-title">ПІДТВЕРДИТИ ЗАМОВЛЕННЯ</h1>
+        <div class="user-avatar">
+            <img src="icon2.png">
+        </div>
+    </header>
+
+    <main class="order-main">
+        <div class="order-card">
+            <form id="order-form">
+                <div class="input-group">
+                    <label>АДРЕСА ДОСТАВКИ<span>*</span></label>
+                    <div class="input-with-icon">
+                        <input type="text" placeholder="">
+                        <span class="search-icon">
+                            <img src="icon6.png">
+                        </span>
+                        <span class="map-icon">
+                            <img src="icon5.png">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>КОМЕНТАР ДЛЯ КУР'ЄРА</label>
+                    <input type="text" placeholder="ПІД'ЇЗД/КВАРТИРА/БУДИНОК">
+                </div>
+
+                <div class="input-group">
+                    <label>КОМЕНТАР ДО ЗАМОВЛЕННЯ</label>
+                    <textarea placeholder="Напишіть щось.."></textarea>
+                </div>
+
+                <div class="input-group">
+                    <label>ВАШЕ ІМ'Я<span>*</span></label>
+                    <input type="text">
+                </div>
+
+                <div class="input-group">
+                    <label>ТЕЛЕФОН<span>*</span></label>
+                    <input type="tel">
+                </div>
+
+                <div class="total-section">
+                    <span class="total-label">ДО ОПЛАТИ</span>
+                    <span class="total-amount">161₴</span>
+                </div>
+
+                <button type="submit" class="pay-button">
+                    <span class="cash-icon">
+                        <img src="icon7.png">
+                    </span>
+                    СПЛАТИТИ
+                    <span class="card-icon">
+                        <img src="icon8.png">
+                    </span>
+                </button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
